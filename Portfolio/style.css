@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1b1b1d !important;
+    color: aliceblue !important;
+}
+
+.logo{
+    display: flex;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 50px !important;
+    color: #ac6022 !important;
+}
+
+.navbarScroll.navbarDark {
+    background-color: black;
+    height: 60px;
+}
+
+.nav-link{
+    color:  rgb(221, 221, 221) !important;
+    font-weight: bold;
+}           
+
+a{
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(255, 252, 252);
+    font-size: 20px;
+}
+
+
+.bgimage {
+    height:100vh;
+    background: url('Images/hero-portfolio.jpg');
+    background-size:cover;
+    position:relative;
+}
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+}
+
+.imageAboutPage{
+    height: 80%;
+}
+
+.aboutSec{
+  margin: 70px;
+}
+
+.card-title{
+    text-align: center;
+    color: #ffffff;
+}
+
+.card-body{
+    background-color:#06bcee;
+}
+
+#Projects{
+    position: relative;
+    top: 120px;
+}
+
+#contact, #Resume, #footer{
+    position: relative;
+    top: 190px;  
+}
+
+#contact{
+    position: relative;
+    top: 250px;  
+}
+
+.cv{
+    margin-top: 50px;
+}
+
+.cvBtn{
+    margin-top: 30px;
+    width: 20%;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+}
+
+/* spacing on all sections */
+#services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 5rem;
+}
+/* about section image css */
+/* .imageAboutPage {
+    width: 100%;
+} */
+
+
+/* social media icons styling */
+.social-icons {
+    position: relative;
+    bottom: 10px ;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #008000;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    background-color: #3d3c3c;
+    text-align: center;
+}
